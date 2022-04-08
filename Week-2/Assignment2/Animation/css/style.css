@@ -1,0 +1,90 @@
+body{
+  text-align: center;
+  /* position: relative; */
+
+}
+
+.white{
+  width: 100px;
+  height:100px;
+  /* background-color: white; */
+  position: absolute;
+  text-align: center;
+  left: 650px;
+  top: 50px;
+}
+.red{
+  width:100px;
+  height:100px;
+  background-color: red;
+  position: absolute;
+  left: 600px;
+  transition-duration: 2s;
+}
+.yellow{
+  width:100px;
+  height:100px;
+  background-color: yellow;
+  position: absolute;
+  left: 700px;
+  transition-duration: 2s;
+}
+.blue{
+  width:100px;
+  height:100px;
+  background-color: blue;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  transition-duration: 2s;
+}
+.green{
+  width:100px;
+  height:100px;
+  background-color: green;
+  position: absolute;
+  left: 700px;
+  top: 100px;
+  transition-duration: 2s;
+}
+div.main:hover .red{
+  transition: transform;
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transition-duration: 2s;
+}
+div.main:hover .yellow{
+  transition: transform;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  transition-duration: 2s;
+}
+div.main:hover .blue{
+  transition: transform;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  transition-duration: 2s;
+}
+div.main:hover .green{
+  transition: transform;
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  transition-duration: 2s;
+  /* transition-timing-function: ; */
+}
+/* .main:hover{
+  animation-name: magic;
+  animation-duration: 2s;
+  /* animation-iteration-count: alternate; */
+
+
+/* @keyframes magic {
+  to{
+    .green{
+      transition: transform;
+      transform: rotate(90deg);
+      transform-origin: bottom right;
+      transition-duration: 2s;
+    }
+  }
+} */
