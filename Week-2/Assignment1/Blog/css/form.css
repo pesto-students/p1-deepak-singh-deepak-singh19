@@ -1,0 +1,54 @@
+body{
+
+text-align: center;
+margin: 0px 60px;
+padding: 0px 60px;
+
+}
+
+.main{
+
+  border-style: inset;
+  margin: 5px;
+  /* background-color: grey; */
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  padding: 20px;
+}
+
+legend{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-element{
+  width: 70%;
+
+  padding: 5px 10px 30px 5px;
+  margin: auto;
+  /* display: flex;
+  flex-direction:  */
+
+}
+.form-item{
+  padding-top:  3px;
+  margin: 2px;
+
+}
+
+.form-item{
+  display: table;
+  display: table-row;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
