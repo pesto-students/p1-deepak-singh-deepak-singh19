@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/form.css">
+  <title>Contact Me</title>
+</head>
+
+<body>
+
+  <div class="main">
+
+    <form class="contact-form" action="index.html" method="post">
+
+      <div class="Name-form form-element">
+
+        <fieldset>
+          <legend>Title</legend>
+          <div class="form-input">
+            <label>First Name <input class="form-item" type="text" name="FirstName" required value=""></label>
+            <br>
+            <label>Middle Name <input class="form-item" type="text" name="MiddleName" value=""></label>
+            <br>
+            <label>Last Name <input class="form-item" type="text" name="LastName" required value=""></label>
+
+          </div>
+        </fieldset>
+
+      </div>
+
+      <div class="Address-form form-element">
+
+        <fieldset>
+          <legend>Address</legend>
+          <div class="form-input">
+            <label class="form-item" for="address">House No. <input type="House No." required name="House No."  value=""></label>
+            <br>
+            <label for="address">Street <input class="form-item" type="street" name="streer"  value=""></label><br>
+            <label for="address">City <input class="form-item" type="City" required name="City"  value=""></label>
+            <label for="address">State <input class="form-item" type="State" required name="State"  value=""></label>
+            <br>
+            <label for="address">Zip <input class="form-item" type="Zip" required name="Zip"  value=""></label>
+            <label for="address">Country <input class="form-item" type="Country" required name="Country"  value=""></label>
+            <!-- <input class="form-item" type="button" name="Submit" value="submit"> -->
+          </div>
+        </fieldset>
+
+      </div>
+
+      <div class="ContactNumber form-element">
+
+        <fieldset>
+          <legend>Contact </legend>
+          <div class="form-input">
+            <label for="address">Mobile No. <input class="form-item" type="tel" name="Mobile No." required value=""></label><br>
+            <label for="address">Alternate No.<input class="form-item" type="tel" name="Alternate No." value=""></label><br>
+            <label for="address">Email <input class="form-item" type="email" name="Email" required value=""></label>
+            <!-- <input class="form-item" type="button" name="Submit" value="submit"> -->
+          </div>
+        </fieldset>
+
+      </div>
+
+      <div class="form-suggestion form-element">
+        <fieldset>
+          <legend>Feedback </legend>
+          <div class="form-input">
+            <label for="Feedback">Suggestions <textarea name="suggestion" rows="5" cols="50"></textarea></label>
+
+          </div>
+        </fieldset>
+
+      </div>
+
+    </form>
+    <button action="index.html" type="submit" name="button">Submit</button>
+
+
+  </div>
+
+</body>
+
+</html>
